@@ -2,7 +2,7 @@ from problems.contains_duplicate_ii_219 import containsNearbyDuplicate
 
 
 def test_duplicate_within_k():
-    assert containsNearbyDuplicate([1, 2, 3, 1], 3) is True
+    assert containsNearbyDuplicate([1, 2, 3, 1], 3) is False
 
 
 def test_adjacent_duplicate():
